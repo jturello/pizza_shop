@@ -4,5 +4,8 @@ describe('Pizza', function() {
     expect(pizza.size).to.equal("large");
   });
 
-
+  it("creates a pizza with the correct toppings", function() {
+    var pizza = new Pizza("large", ["sausage", "onions", "olives"]);
+    expect(pizza.toppings).to.eql(["sausage", "onions", "olives"]);
+  })
 });
