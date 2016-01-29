@@ -14,7 +14,7 @@ Pizza.prototype.cost = function() {
   }
 
   cents += (this.toppings.length * 75);
-  console.log(cents);
+
   return cost = '$' + (cents * .01);
-  console.log(cost);
+
 }

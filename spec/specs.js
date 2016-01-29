@@ -8,7 +8,6 @@ describe('Pizza', function() {
     var pizza = new Pizza("large", ["sausage", "onions", "olives"]);
     expect(pizza.toppings).to.eql(["sausage", "onions", "olives"]);
   })
-
 });
 
 describe('cost', function() {
@@ -16,5 +15,4 @@ describe('cost', function() {
     var pizza = new Pizza('large', ['sausage', 'onions', 'olives']);
     expect(pizza.cost()).to.equal('$14.25');
   })
-
-})
+});
