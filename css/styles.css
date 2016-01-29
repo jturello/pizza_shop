@@ -1,0 +1,26 @@
+.jumbotron {
+  background-image: url("../images/pizza2.jpg");
+  background-size: cover;
+  border: 1px solid slategrey;
+  color: lightyellow;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.container {
+  background-color: lemonchiffon;
+}
+
+input[type=checkbox] {
+  display: inline-block;
+}
+
+.inline-radios {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.inline-checkboxes {
+  margin-bottom: 20px;
+}

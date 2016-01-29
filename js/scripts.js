@@ -12,9 +12,6 @@ Pizza.prototype.cost = function() {
     case 'medium': cents = 1000; break;
     case 'large' : cents = 1200; break;
   }
-
   cents += (this.toppings.length * 75);
-
   return cost = '$' + (cents * .01);
-
 }
