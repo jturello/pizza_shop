@@ -8,4 +8,13 @@ describe('Pizza', function() {
     var pizza = new Pizza("large", ["sausage", "onions", "olives"]);
     expect(pizza.toppings).to.eql(["sausage", "onions", "olives"]);
   })
+
 });
+
+describe('cost', function() {
+  it("calculates and returns the correct cost for a pizza", function() {
+    var pizza = new Pizza('large', ['sausage', 'onions', 'olives']);
+    expect(pizza.cost()).to.equal('$14.25');
+  })
+
+})
