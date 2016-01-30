@@ -14,49 +14,49 @@
         <h1>Best Pizza</h1>
       </div>
 
-      <form>
+      <form class="form-inline">
         <div class="inline-radios">
            <h4>What size pizza do you want?</h4>
            <label class="radio-inline">
-              <input type="radio" name="optradio">Small
+              <input type="radio" name="pizza_size" checked="checked" value="small">Small ($8.00)
            </label>
            <label class="radio-inline">
-              <input type="radio" name="optradio">Medium
+              <input type="radio" name="pizza_size" value="medium">Medium ($9.00)
            </label>
            <label class="radio-inline">
-              <input type="radio" name="optradio">Large
+              <input type="radio" name="pizza_size" value="large">Large ($12.00)
            </label>
         </div> <!-- end inline-radios div -->
 
-        <div class="inline-checkboxes">
-            <h4>Choose your toppings!</h4>
+        <div class="inline-checkboxes" id="checkboxes">
+            <h4>Choose your toppings!<small> (each topping costs $0.75)</small></h4>
             <label class="checkbox-inline">
-                <input type="checkbox" value="option1">Sausage
+                <input type="checkbox" value="Sausage">Sausage
             </label>
             <label class="checkbox-inline">
-                <input type="checkbox" value="option2">Canadian Bacon
+                <input type="checkbox" value="Canadian Bacon">Canadian Bacon
             </label>
             <label class="checkbox-inline">
-                <input type="checkbox" value="option3">Onions
+                <input type="checkbox" value="Onions">Onions
             </label>
             <label class="checkbox-inline">
-                <input type="checkbox" value="option1">Green Olives
+                <input type="checkbox" value="Green Olives">Green Olives
             </label>
             <label class="checkbox-inline">
-                <input type="checkbox" value="option1">Black Olives
+                <input type="checkbox" value="Black Olives">Black Olives
             </label>
             <label class="checkbox-inline">
-                <input type="checkbox" value="option2">Mushrooms
+                <input type="checkbox" value="Mushrooms">Mushrooms
             </label>
             <label class="checkbox-inline">
-                <input type="checkbox" value="option3">Hamburger
+                <input type="checkbox" value="Hamburger">Hamburger
             </label>
             <label class="checkbox-inline">
-                <input type="checkbox" value="option3">Anchovies
+                <input type="checkbox" value="Anchovies">Anchovies
             </label>
         </div> <!-- end inline-checkboxes div -->
 
-        <button type="button" class="btn btn-primary" id="order_submit">Submit Order!</button>
+        <button type="button" class="btn btn-primary" id="submit-btn">Submit Order!</button>
       </form>
     </div> <!-- end container div -->
   </body>
