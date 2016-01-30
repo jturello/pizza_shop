@@ -1,37 +1,30 @@
-# _{Application Name}_
+Javascript OO Code Review
 
-#### _{Brief description of application}, {Date of current version}_
+#### Create a website for a pizza company where a user can order a pizza and see the final cost, 01.29.2016
 
-#### By _**{List of contributors}**_
+#### By James Turello
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+This website allows a user to enter a pizza size and any combination of toppings available in the checkboxes on the page and the cost of their pizza will be displayed back to them.
+
+This webpage is hosted at and can be viewed at the following url: [Pizza Shop](http://jturello.github.io/pizza_shop/)
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+Clone the git repository and open file index.html in a browser
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
-
-## Support and contact details
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+No known bugs or issues
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+Coded and tested on Chrome 48 (Mac) using javascript 1.7, jQuery 1.12.0, and Bootstrap v3.3.6
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+This software is available for use under the MIT license.
 
-Copyright (c) 2015 **_{List of contributors or company name}_**
+Copyright (c) 2015 - James Turello
