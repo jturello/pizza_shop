@@ -46,3 +46,7 @@ input[type=checkbox] {
   color: crimson;
   text-align: center;
 }
+
+#pizza-cost-text-cell h3 {
+  padding-top: 4em;
+}
