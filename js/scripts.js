@@ -32,6 +32,8 @@ $('document').ready(function() {
 
     var cost = pizza.cost();
 
+    $('#pizza-cost-text').text(cost);
+
     console.log(cost);
 
 
