@@ -27,9 +27,13 @@ $('document').ready(function() {
 
     var pizza_size = $("input[type='radio']:checked").val();
     var toppings = [];
-    $.each($('#checkboxes input:checked'), function(){
-      toppings.push($(this).val())
+    $('input#checkboxes:checked').each(function(){
+      toppings.push($(this).val());
     });
+    console.log(toppings);
+    // $.each($("input[type='checkbox']").val(), function() {
+    //   toppings.push($(this).val())
+    // });
 
     var pizza = new Pizza(pizza_size, toppings);
     var cost = pizza.cost();

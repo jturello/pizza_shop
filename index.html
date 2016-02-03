@@ -14,52 +14,99 @@
         <h1>Best Pizza</h1>
       </div>
 
-      <form class="form-inline">
-        <div class="inline-radios">
-           <h4>What size pizza do you want?</h4>
-           <label class="radio-inline">
-              <input type="radio" name="pizza_size" checked="checked" value="small">Small ($8.00)
-           </label>
-           <label class="radio-inline">
-              <input type="radio" name="pizza_size" value="medium">Medium ($10.00)
-           </label>
-           <label class="radio-inline">
-              <input type="radio" name="pizza_size" value="large">Large ($12.00)
-           </label>
-        </div> <!-- end inline-radios div -->
 
-        <div class="inline-checkboxes" id="checkboxes">
-            <h4>Choose your toppings!<small> (each topping costs $0.75)</small></h4>
-            <label class="checkbox-inline">
-                <input type="checkbox" value="Sausage">Sausage
-            </label>
-            <label class="checkbox-inline">
-                <input type="checkbox" value="Canadian Bacon">Canadian Bacon
-            </label>
-            <label class="checkbox-inline">
-                <input type="checkbox" value="Onions">Onions
-            </label>
-            <label class="checkbox-inline">
-                <input type="checkbox" value="Green Olives">Green Olives
-            </label>
-            <label class="checkbox-inline">
-                <input type="checkbox" value="Black Olives">Black Olives
-            </label>
-            <label class="checkbox-inline">
-                <input type="checkbox" value="Mushrooms">Mushrooms
-            </label>
-            <label class="checkbox-inline">
-                <input type="checkbox" value="Hamburger">Hamburger
-            </label>
-            <label class="checkbox-inline">
-                <input type="checkbox" value="Anchovies">Anchovies
-            </label>
-        </div> <!-- end inline-checkboxes div -->
+      <form >
+          <div class="inline-radios">
+            <div class="row radio-row-h4">
+              <div class="col-sm-12">
+                <h4>What size pizza do you want?</h4>
+              </div>
+            </div>
+            <div class="row radio-row">
+                <div class="col-sm-3">
+                  <label class="radio-inline">
+                     <input type="radio" name="pizza_size" checked="checked" value="small">Small ($8.00)
+                  </label>
+                </div>
+                <div class="col-sm-3">
+                  <label class="radio-inline">
+                     <input type="radio" name="pizza_size" value="medium">Medium ($10.00)
+                  </label>
+                </div>
+                <div class="col-sm-3">
+                  <label class="radio-inline">
+                     <input type="radio" name="pizza_size" value="large">Large ($12.00)
+                  </label>
+                </div>
+                <div class="col-sm-3">
+                </div>
+            </div> <!-- end radio-row div -->
+          </div> <!-- end inline-radio div -->
+</form>
+          <div class="inline-checkboxes" id="checkboxes">
+            <div class="row checkbox-row-h4">
+              <div class="col-sm-12">
+                <h4>Choose your toppings!<small> (each topping costs $0.75)</small></h4>
+              </div>
+            </div>
+            <div class="row checkbox-row-1">
+                <div class="col-sm-3">
+                  <label class="checkbox-inline">
+                      <input type="checkbox" value="Sausage" id="checkboxes">Sausage
+                  </label>
+                </div>
+                <div class="col-sm-3">
+                  <label class="checkbox-inline">
+                      <input type="checkbox" value="Canadian Bacon" id="checkboxes">Canadian Bacon
+                  </label>
+                </div>
+                <div class="col-sm-3">
+                  <label class="checkbox-inline">
+                      <input type="checkbox" value="Onions" id="checkboxes">Onions
+                  </label>
+                </div>
+                <div class="col-sm-3">
+                  <label class="checkbox-inline">
+                      <input type="checkbox" value="Green Olives" id="checkboxes">Green Olives
+                  </label>
+                </div>
 
-        <div class="sumbit-btn-div">
-            <button type="button" class="btn btn-primary" id="submit-btn">Submit Order!</button>
-        </div>
-      </form>
+            </div> <!-- end checkbox-row-1 div -->
+
+
+            <div class="row checkbox-row-2">
+                <div class="col-sm-3">
+                  <label class="checkbox-inline">
+                      <input type="checkbox" value="Black Olives" id="checkboxes">Black Olives
+                  </label>
+                </div>
+                <div class="col-sm-3">
+                  <label class="checkbox-inline">
+                      <input type="checkbox" value="Mushrooms">Mushrooms
+                  </label>
+                </div>
+                <div class="col-sm-3">
+                  <label class="checkbox-inline">
+                      <input type="checkbox" value="Hamburger">Hamburger
+                  </label>
+                </div>
+                <div class="col-sm-3">
+                  <label class="checkbox-inline">
+                      <input type="checkbox" value="Anchovies">Anchovies
+                  </label>
+                </div>
+            </div> <!-- end checkbox-row-2 div -->
+          </div>
+          <div class="row">
+            <div class="sumbit-btn-div">
+                <button type="button" class="btn btn-primary" id="submit-btn">Submit Order!</button>
+            </div>
+          </div>
+
+
+      <!-- </form> -->
+
+
 
       <div class="pizza-cost-display">
         <div class="row">
