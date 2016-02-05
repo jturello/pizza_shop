@@ -10,6 +10,7 @@
 
 .container {
   background-color: lemonchiffon;
+  border: 1px solid darkgrey;
 }
 
 input[type=checkbox] {
